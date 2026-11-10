@@ -1,5 +1,22 @@
 using System;
 
+
+// EXCEEDING REQUIREMENTS DOCUMENTATION:
+// To show creativity and exceed the core requirements, 
+// this program implements a custom "Mood Tracker" feature. 
+// 
+// Details of exceeded requirements:
+// 1. Extended Data Model: Each journal entry captures not just the standard 
+//    date, prompt text, and user response, but also records the user's 
+//    current emotional state/mood (e.g., "Happy", "Reflective", "Grateful").
+// 2. File Persistence: The custom mood data is fully integrated into 
+//    the file saving and loading system (via Journal.cs). This ensures that user moods are successfully saved to disk 
+//    and accurately restored when loading existing journal files.
+// 3. Mood Input: Menu Option 1 prompts the user to input their emotional 
+//    state during entry creation, and Menu Option 2 cleanly formats and 
+//    displays this mood alongside the date, prompt, and entry text.
+
+
 class Program
 {
     static void Main(string[] args)
